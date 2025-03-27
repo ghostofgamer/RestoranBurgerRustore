@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03daec6e8a43b4bfba571d3b6b0ca05c, type: 3}
+  m_Name: DeliveryConfig
+  m_EditorClassIdentifier: 
+  deliveryItemsData:
+    keyValues:
+    - key: 0
+      value:
+        boxPrefab: {fileID: 315152322035282131, guid: aaa4bc655fe214eee832148a41283433, type: 3}
+    - key: 3
+      value:
+        boxPrefab: {fileID: 315152322035282131, guid: aaa4bc655fe214eee832148a41283433, type: 3}
+    - key: 10
+      value:
+        boxPrefab: {fileID: 134711635183101367, guid: e6c7d4315674f458dbdc4ad9ba1f99bb, type: 3}
+    - key: 27
+      value:
+        boxPrefab: {fileID: 4960435158459708757, guid: 9e23c321f623e43e4bd1d2347d2777c2, type: 3}
+    - key: 14
+      value:
+        boxPrefab: {fileID: 910474948363250629, guid: 061410a288523420eaf781356f144bf3, type: 3}
+    - key: 4
+      value:
+        boxPrefab: {fileID: 315152322035282131, guid: aaa4bc655fe214eee832148a41283433, type: 3}
+    - key: 5
+      value:
+        boxPrefab: {fileID: 315152322035282131, guid: aaa4bc655fe214eee832148a41283433, type: 3}
+    - key: 8
+      value:
+        boxPrefab: {fileID: 315152322035282131, guid: aaa4bc655fe214eee832148a41283433, type: 3}
+    - key: 11
+      value:
+        boxPrefab: {fileID: 0}
+    - key: 6
+      value:
+        boxPrefab: {fileID: 315152322035282131, guid: aaa4bc655fe214eee832148a41283433, type: 3}
+    - key: 9
+      value:
+        boxPrefab: {fileID: 315152322035282131, guid: aaa4bc655fe214eee832148a41283433, type: 3}
+    - key: 12
+      value:
+        boxPrefab: {fileID: 0}
+    - key: 23
+      value:
+        boxPrefab: {fileID: 0}
+    - key: 24
+      value:
+        boxPrefab: {fileID: 0}
+    - key: 25
+      value:
+        boxPrefab: {fileID: 0}
+    - key: 26
+      value:
+        boxPrefab: {fileID: 0}
+    - key: 13
+      value:
+        boxPrefab: {fileID: 910474948363250629, guid: 061410a288523420eaf781356f144bf3, type: 3}
+    - key: 7
+      value:
+        boxPrefab: {fileID: 315152322035282131, guid: aaa4bc655fe214eee832148a41283433, type: 3}
+  firstDeliveryDuration:
+    days: 0
+    hours: 0
+    minutes: 1
+    seconds: 30
+  beginnerDeliveryDurationMin:
+    days: 0
+    hours: 0
+    minutes: 0
+    seconds: 30
+  beginnerDeliveryDurationMax:
+    days: 0
+    hours: 0
+    minutes: 4
+    seconds: 0
+  defaultDeliveryDurationMin:
+    days: 0
+    hours: 0
+    minutes: 0
+    seconds: 30
+  defaultDeliveryDurationMax:
+    days: 0
+    hours: 0
+    minutes: 4
+    seconds: 0

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f67e70f6276945d88450e94cc62294c, type: 3}
+  m_Name: 3_CutletRaw
+  m_EditorClassIdentifier: 
+  itemData:
+    mainData:
+      itemType: 3
+      section: 0
+      itemPrefab: {fileID: 6297824730473248455, guid: b6c3fe0dc3a244d2db3daf471d7e1edc, type: 3}
+      itemName: Cutlet
+      iconSprite: {fileID: 21300000, guid: 8ac130646ed8b43018034f92a75b06c9, type: 3}
+    costData:
+      buyCost:
+        dollars: 2
+        cents: 75
+      saleCostMin:
+        dollars: 0
+        cents: 0
+      saleCostRec:
+        dollars: 0
+        cents: 0
+      saleCostMax:
+        dollars: 0
+        cents: 0
+    xpData:
+      buyXpReward: 5
+      saleXpReward: 0
+      neededLevelForBuy: 0
+    otherData:
+      boxValue: 8
+      portionsValue: 1
+      playerDraggerOffsetY: 0
+    recipe:
+      pecipeItems: 

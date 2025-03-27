@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4629099667826256328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5202687099937929649}
+  - component: {fileID: 1959430475875964645}
+  - component: {fileID: 4352585049732690113}
+  - component: {fileID: -2565307333832550424}
+  - component: {fileID: 302927415367464874}
+  - component: {fileID: -365396104643113894}
+  - component: {fileID: 1391266720443524517}
+  - component: {fileID: 3455731503959515553}
+  m_Layer: 0
+  m_Name: DayChanger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5202687099937929649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629099667826256328}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 160, y: 885.47534, z: 78.77601}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1959430475875964645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629099667826256328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 862bd2cf61acbd54684652ecc10e2748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dayNightCycle: {fileID: 4352585049732690113}
+  _buyersCounter: {fileID: -2565307333832550424}
+  _ordersCounter: {fileID: 302927415367464874}
+  _incomeCounter: {fileID: -365396104643113894}
+  _levelsCounter: {fileID: 1391266720443524517}
+  _reputationCounter: {fileID: 3455731503959515553}
+--- !u!114 &4352585049732690113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629099667826256328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23cf80d47a2dcd46a664916c3a58725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skyboxMaterial: {fileID: 2100000, guid: b1a2b75a5dcd25149a9bca6c743839b1, type: 2}
+  dayDuration: 100
+  _nightDuration: 0
+  dayColor: {r: 0.18039216, g: 0.35686275, b: 0.5294118, a: 1}
+  nightColor: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
+  _dayAmbientColor: {r: 0.7137255, g: 0, b: 0.42745098, a: 1}
+  _nightAmbientColor: {r: 0.16078432, g: 0.16078432, b: 0.16078432, a: 1}
+  _dayEquatorColor: {r: 1, g: 0.7921569, b: 0.64705884, a: 1}
+  _nightEquatorColor: {r: 0.16078432, g: 0.16078432, b: 0.16078432, a: 1}
+  _dayLightColor: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  _nightLightColor: {r: 0.16078432, g: 0.16078432, b: 0.16078432, a: 1}
+  _buyersCounter: {fileID: -2565307333832550424}
+  minExposure: 0.5
+  maxExposure: 1.65
+--- !u!114 &-2565307333832550424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629099667826256328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b67262cc98223a4fabfb0f20bffdcef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dayChange: {fileID: 1959430475875964645}
+--- !u!114 &302927415367464874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629099667826256328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 770c0ca8038d6354188533c0c6a86d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-365396104643113894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629099667826256328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f632772c60b6346863ab9bada3309f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1391266720443524517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629099667826256328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7162e850f4232f44f9b902e5e04fe11f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3455731503959515553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629099667826256328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 134c3249def5891489a86b6d2f08c587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

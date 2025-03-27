@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f67e70f6276945d88450e94cc62294c, type: 3}
+  m_Name: 38_NuggetsBurnt
+  m_EditorClassIdentifier: 
+  itemData:
+    mainData:
+      itemType: 38
+      section: 3
+      itemPrefab: {fileID: 1272540544173061263, guid: 5c6bfabf4aa994b16a94388118c0e0a8, type: 3}
+      itemName: Burnt Nuggets
+      iconSprite: {fileID: 0}
+    costData:
+      buyCost:
+        dollars: 0
+        cents: 0
+      saleCostMin:
+        dollars: 0
+        cents: 0
+      saleCostRec:
+        dollars: 0
+        cents: 0
+      saleCostMax:
+        dollars: 0
+        cents: 0
+    xpData:
+      buyXpReward: 0
+      saleXpReward: 0
+      neededLevelForBuy: 0
+    otherData:
+      boxValue: 1
+      portionsValue: 1
+    recipe:
+      pecipeItems: 

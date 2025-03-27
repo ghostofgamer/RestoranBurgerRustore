@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &570809718445259802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5181548185042795998}
+  - component: {fileID: 6078602247748574196}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5181548185042795998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570809718445259802}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6078602247748574196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570809718445259802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7d8d6a619ae47549fe27543cf48fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldPrefab: {fileID: 7399189373579806224, guid: ef534cc4b19b64d97987641c4330f4dc, type: 3}
+  playerPrefab: {fileID: 7148589758699493875, guid: 81b8792def4ff4cfebf02b03b44208ff, type: 3}
+  buyerCarsSimulationPrefab: {fileID: 3559649817241282822, guid: 2badf6ad871044affb32e45de428d197, type: 3}
+  buyersSpawnerPrefab: {fileID: 374373403211375781, guid: d2b82d7cde1aa48eba7425abb83e5fa5, type: 3}
+  allBuyerPlacesPrefab: {fileID: 5609774505451143924, guid: e5c0fdf77acbd4c5180f527d6ffed095, type: 3}
+  priceListInWorldPrefab: {fileID: 4150351057774477347, guid: 10d8281e10f6841238face224d7c769f, type: 3}
+  townSimulationPrefab: {fileID: 1515431012167470159, guid: 5e119a8dee33f4e72b735c38effc035e, type: 3}
+  _dayChangePrefab: {fileID: 1959430475875964645, guid: e3c0ec6088bb54b46ab536163b6846ba, type: 3}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f67e70f6276945d88450e94cc62294c, type: 3}
+  m_Name: 32_FinalCoffee
+  m_EditorClassIdentifier: 
+  itemData:
+    mainData:
+      itemType: 32
+      section: 4
+      itemPrefab: {fileID: 3901617309827462163, guid: 78e92d915d6234bfbaaff2bc2169299c, type: 3}
+      itemName: Coffee
+      iconSprite: {fileID: 21300000, guid: 103a78fc359144e8d8ea9de8a2a28757, type: 3}
+    costData:
+      buyCost:
+        dollars: 2
+        cents: 10
+      saleCostMin:
+        dollars: 2
+        cents: 10
+      saleCostRec:
+        dollars: 3
+        cents: 15
+      saleCostMax:
+        dollars: 6
+        cents: 30
+    xpData:
+      buyXpReward: 0
+      saleXpReward: 10
+      neededLevelForBuy: 1
+    otherData:
+      boxValue: 1
+      portionsValue: 1
+    recipe:
+      pecipeItems: 

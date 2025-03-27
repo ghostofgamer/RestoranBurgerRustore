@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f67e70f6276945d88450e94cc62294c, type: 3}
+  m_Name: 7_CabbageSolid
+  m_EditorClassIdentifier: 
+  itemData:
+    mainData:
+      itemType: 7
+      section: 0
+      itemPrefab: {fileID: 111381106230253987, guid: 2b4641e34c82d4d4a84a2e2eaf0ae045, type: 3}
+      itemName: Cabbage
+      iconSprite: {fileID: 21300000, guid: 770fe7488e49f4fdab3986cb7de0380d, type: 3}
+    costData:
+      buyCost:
+        dollars: 1
+        cents: 15
+      saleCostMin:
+        dollars: 0
+        cents: 0
+      saleCostRec:
+        dollars: 0
+        cents: 0
+      saleCostMax:
+        dollars: 0
+        cents: 0
+    xpData:
+      buyXpReward: 5
+      saleXpReward: 0
+      neededLevelForBuy: 6
+    otherData:
+      boxValue: 1
+      portionsValue: 12
+      playerDraggerOffsetY: 0
+    recipe:
+      pecipeItems: 

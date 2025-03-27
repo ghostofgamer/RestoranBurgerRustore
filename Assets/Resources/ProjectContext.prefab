@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1805364232369165673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5419992568071571105}
+  - component: {fileID: 4067706112030484371}
+  - component: {fileID: 1263428710760877386}
+  m_Layer: 0
+  m_Name: ProjectContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5419992568071571105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805364232369165673}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4067706112030484371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805364232369165673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e6589720da476459dc6dd71624b071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers: []
+  _monoInstallers:
+  - {fileID: 1263428710760877386}
+  _installerPrefabs: []
+  _parentNewObjectsUnderContext: 1
+  _editorReflectionBakingCoverageMode: 0
+  _buildsReflectionBakingCoverageMode: 0
+  _settings:
+    _ensureDeterministicDestructionOrderOnApplicationQuit: 0
+    _displayWarningWhenResolvingDuringInstall: 1
+    _validationRootResolveMethod: 0
+    _validationErrorResponse: 0
+    _signalSettings:
+      _defaultSyncMode: 0
+      _missingHandlerDefaultResponse: 2
+      _requireStrictUnsubscribe: 0
+      _defaultAsyncTickPriority: 1
+--- !u!114 &1263428710760877386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805364232369165673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fff2f7238a7d4af8a0a530279ee2da1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameControllerPrefab: {fileID: 4150929505150239545, guid: 0589c873d6e51432c933ee084c798f59, type: 3}
+  soundControllerPrefab: {fileID: 2157812086158874339, guid: 67f150fb28cb84276a265ffcae17dbd0, type: 3}
+  guiControllerPrefab: {fileID: 3393732523295581646, guid: c0611db02a3c248239e85f94284f46a2, type: 3}
+  screenPrefabs:
+  - {fileID: 6206188417071900033, guid: 9be99ed0a80e843bda5b43c335d7fed5, type: 3}
+  - {fileID: 2793095468912130560, guid: 8b26207160bee4ed4aae60c0697ae72d, type: 3}
+  - {fileID: 8006252960503801496, guid: ced33bf74a59948f08b1125c69f1b18d, type: 3}
+  - {fileID: 3175569552532464225, guid: b47a0392301eb45d0a3790c3f19ace25, type: 3}
+  - {fileID: 7695916075864817934, guid: 037d7b41c3c0d45919406da3ace0f1a7, type: 3}
+  - {fileID: 5838450412446096660, guid: 7c8fc7f38a20b41f3b4802654046a39b, type: 3}
+  universalElementPrefabs:
+  - {fileID: 6198429222767947342, guid: 41bf14873294646859d61888d11ff4d4, type: 3}
+  tutorialControllerPrefab: {fileID: 1441552228603819432, guid: 664b2728a411241009d744ec825aff0f, type: 3}
+  flyUiContainerPrefab: {fileID: 6175411250007891447, guid: ca2cd59cee8904d76b3cb8118142d061, type: 3}

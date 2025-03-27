@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f67e70f6276945d88450e94cc62294c, type: 3}
+  m_Name: 19_FinalBurger_Medium
+  m_EditorClassIdentifier: 
+  itemData:
+    mainData:
+      itemType: 19
+      section: 3
+      itemPrefab: {fileID: 6670844800926408673, guid: 70a3856deb6af4717bccfd64c985679e, type: 3}
+      itemName: Burger Medium
+      iconSprite: {fileID: 21300000, guid: 42cacc73e8fb542289e6f241c154432a, type: 3}
+    costData:
+      buyCost:
+        dollars: 7
+        cents: 45
+      saleCostMin:
+        dollars: 7
+        cents: 45
+      saleCostRec:
+        dollars: 11
+        cents: 18
+      saleCostMax:
+        dollars: 22
+        cents: 35
+    xpData:
+      buyXpReward: 0
+      saleXpReward: 10
+      neededLevelForBuy: 2
+    otherData:
+      boxValue: 0
+      portionsValue: 1
+    recipe:
+      pecipeItems: 020000002a00000027000000210000002200000001000000

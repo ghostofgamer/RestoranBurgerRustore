@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f67e70f6276945d88450e94cc62294c, type: 3}
+  m_Name: 8_FrenchFriesFrozen
+  m_EditorClassIdentifier: 
+  itemData:
+    mainData:
+      itemType: 8
+      section: 0
+      itemPrefab: {fileID: 9151625591014020104, guid: 9fc177761732e439888e1f538e38014b, type: 3}
+      itemName: French Fries Frozen
+      iconSprite: {fileID: 21300000, guid: 1dd183ebd8c384dc1bc9e14694a8e494, type: 3}
+    costData:
+      buyCost:
+        dollars: 3
+        cents: 70
+      saleCostMin:
+        dollars: 0
+        cents: 0
+      saleCostRec:
+        dollars: 0
+        cents: 0
+      saleCostMax:
+        dollars: 0
+        cents: 0
+    xpData:
+      buyXpReward: 0
+      saleXpReward: 0
+      neededLevelForBuy: 3
+    otherData:
+      boxValue: 6
+      portionsValue: 1
+    recipe:
+      pecipeItems: 

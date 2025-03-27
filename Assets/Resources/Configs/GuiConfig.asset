@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89818c1445f47424ba58badb27cb738c, type: 3}
+  m_Name: GuiConfig
+  m_EditorClassIdentifier: 
+  guiControllerPrefab: {fileID: 3393732523295581646, guid: c0611db02a3c248239e85f94284f46a2, type: 3}
+  screenPrefabs:
+  - {fileID: 8342889026928980143, guid: d7648dd06745b404d9607d19047e13dd, type: 3}
+  - {fileID: 3169439181294705440, guid: a99373f3d1d1745898cef0926a2f272a, type: 3}
+  - {fileID: 6801433211555037654, guid: 59e147039147f46a5b67ed901e39539b, type: 3}
+  - {fileID: 2918876407648889915, guid: cb6cde09ab70a4938b36836040fc15c7, type: 3}
+  - {fileID: 1914307059803276546, guid: 0e00bd3ea0e4448a99f3d2548dff3634, type: 3}
+  - {fileID: 5062632461412281682, guid: 34ab20af99d3543fe85367a38650147b, type: 3}
+  - {fileID: 4859195731728275995, guid: b0f79200f79fb45dcb15b93c0ae28461, type: 3}
+  - {fileID: 235494355981257803, guid: 84f50adcce6eb43db827370452485d1b, type: 3}
+  - {fileID: 690617387628667619, guid: 5cd911a35987e40ba8e39f3ed29ebd27, type: 3}
+  - {fileID: 3099532103587677480, guid: dd638132cff0c4e088d2ae1b225bef7a, type: 3}
+  - {fileID: 1148980439302427640, guid: 037d7b41c3c0d45919406da3ace0f1a7, type: 3}
+  - {fileID: 5838450412446096660, guid: 7c8fc7f38a20b41f3b4802654046a39b, type: 3}
+  - {fileID: 2135157194789326670, guid: ab542f9d5a1c845dcaaa6601d0d3e0c1, type: 3}
+  - {fileID: 2167850740525293966, guid: d3eaae6293c37494daf0d75ac02468f4, type: 3}
+  - {fileID: 7186038876450182045, guid: 28326e524f83de34e9b69c52055da804, type: 3}
+  - {fileID: 4110807072060086215, guid: e2b1c676939a59e42a8cf1c081a65c8f, type: 3}
+  - {fileID: 4296581781921234132, guid: e1a4d09cb8504b44d9ce3b50841e26b3, type: 3}
+  - {fileID: 6894026519751100727, guid: f4f5a9740b6acad4583b696a26793788, type: 3}
+  universalElementPrefabs:
+  - {fileID: 4779523943823894985, guid: a70359cb81b0e48158212ec29013da53, type: 3}
+  - {fileID: 4822997581325080835, guid: a6bb6a94876334e7e9d4039fb4178c09, type: 3}
+  - {fileID: 1366774006740019106, guid: 77f45675b7c0c49c0a2be7e2586792d8, type: 3}

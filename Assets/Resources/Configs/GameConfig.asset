@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f77d56bbbcb94145930ca6563fba9a4, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  useCheats: 0
+  lockData: 0
+  buyerPlaceIcons:
+    keyValues:
+    - key: 0
+      value: {fileID: 21300000, guid: 31b5dee131ad248eba93accf64989044, type: 3}
+    - key: 1
+      value: {fileID: 21300000, guid: 6b8037350b5e54d17a04ea118505e454, type: 3}
+    - key: 2
+      value: {fileID: 21300000, guid: c2cf4b7a9c7cc4137aa14d19c1655030, type: 3}
+    - key: 3
+      value: {fileID: 21300000, guid: b2f1c48c99c1d48b68a510a380cfe195, type: 3}
+  buyerPlaceCostData:
+    keyValues:
+    - key: 0
+      value:
+      - displayName: Sofa 1
+        cost:
+          dollars: 70
+          cents: 0
+        neededLevel: 0
+        placesCount: 2
+        neededExpandsCount: 0
+      - displayName: Sofa 2
+        cost:
+          dollars: 200
+          cents: 0
+        neededLevel: 1
+        placesCount: 2
+        neededExpandsCount: 1
+      - displayName: Sofa 3
+        cost:
+          dollars: 350
+          cents: 0
+        neededLevel: 2
+        placesCount: 2
+        neededExpandsCount: 2
+      - displayName: Sofa 4
+        cost:
+          dollars: 400
+          cents: 0
+        neededLevel: 2
+        placesCount: 2
+        neededExpandsCount: 2
+    - key: 1
+      value:
+      - displayName: Sofa and chair 1
+        cost:
+          dollars: 70
+          cents: 0
+        neededLevel: 1
+        placesCount: 1
+        neededExpandsCount: 1
+      - displayName: Sofa and chair 2
+        cost:
+          dollars: 120
+          cents: 0
+        neededLevel: 1
+        placesCount: 1
+        neededExpandsCount: 1
+      - displayName: Sofa and chair 3
+        cost:
+          dollars: 250
+          cents: 0
+        neededLevel: 2
+        placesCount: 1
+        neededExpandsCount: 2
+      - displayName: Sofa and chair 4
+        cost:
+          dollars: 400
+          cents: 0
+        neededLevel: 2
+        placesCount: 1
+        neededExpandsCount: 2
+    - key: 2
+      value:
+      - displayName: Chair 1
+        cost:
+          dollars: 0
+          cents: 0
+        neededLevel: 0
+        placesCount: 1
+        neededExpandsCount: 0
+      - displayName: Chair 2
+        cost:
+          dollars: 0
+          cents: 0
+        neededLevel: 0
+        placesCount: 1
+        neededExpandsCount: 0
+      - displayName: Chair 3
+        cost:
+          dollars: 30
+          cents: 0
+        neededLevel: 0
+        placesCount: 1
+        neededExpandsCount: 0
+      - displayName: Chair 4
+        cost:
+          dollars: 40
+          cents: 0
+        neededLevel: 1
+        placesCount: 1
+        neededExpandsCount: 1
+      - displayName: Chair 5
+        cost:
+          dollars: 70
+          cents: 0
+        neededLevel: 1
+        placesCount: 1
+        neededExpandsCount: 2
+    - key: 3
+      value:
+      - displayName: Double chair 1
+        cost:
+          dollars: 50
+          cents: 0
+        neededLevel: 0
+        placesCount: 1
+        neededExpandsCount: 0
+      - displayName: Double chair 2
+        cost:
+          dollars: 50
+          cents: 0
+        neededLevel: 1
+        placesCount: 1
+        neededExpandsCount: 1
+      - displayName: Double chair 3
+        cost:
+          dollars: 70
+          cents: 0
+        neededLevel: 1
+        placesCount: 1
+        neededExpandsCount: 2
+      - displayName: Double chair 4
+        cost:
+          dollars: 90
+          cents: 0
+        neededLevel: 2
+        placesCount: 1
+        neededExpandsCount: 2
+  expandData:
+  - displayName: Zone 1
+    neededLevel: 3
+    neededExpandCount: 0
+    cost:
+      dollars: 100
+      cents: 0
+  - displayName: Zone 2
+    neededLevel: 7
+    neededExpandCount: 1
+    cost:
+      dollars: 500
+      cents: 0
+  coffeeMachineData:
+    icon: {fileID: 21300000, guid: 84ef966812dc549e191594b57439ba4d, type: 3}
+    displayName: Coffee Machine
+    neededLevel: 1
+    cost:
+      dollars: 30
+      cents: 0
+  deepFryerMachineData:
+    icon: {fileID: 21300000, guid: a5acb3451af1b47e986b7ad441ee142e, type: 3}
+    displayName: Deep Fryer
+    neededLevel: 3
+    cost:
+      dollars: 70
+      cents: 0
+  sodaMachineData:
+    icon: {fileID: 21300000, guid: 12b2c1158acf04de88350c256196045d, type: 3}
+    displayName: Soda Machine
+    neededLevel: 5
+    cost:
+      dollars: 150
+      cents: 0
+  startBalance:
+    dollars: 50
+    cents: 0
+  startDelivery:
+    keyValues: []
+  startCoffeeBeans: 2
+  startFurnitureUnits:
+    keyValues:
+    - key: 2
+      value: 2
+  x2BonusOfferPeriod:
+    days: 0
+    hours: 0
+    minutes: 5
+    seconds: 0
+  showX2BonusOfferDuration:
+    days: 0
+    hours: 0
+    minutes: 0
+    seconds: 10
+  x2BonuxDuration:
+    days: 0
+    hours: 0
+    minutes: 3
+    seconds: 0
+  randomMusicTypes: 000000000100000002000000030000000400000005000000

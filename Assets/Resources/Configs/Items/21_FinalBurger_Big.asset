@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f67e70f6276945d88450e94cc62294c, type: 3}
+  m_Name: 21_FinalBurger_Big
+  m_EditorClassIdentifier: 
+  itemData:
+    mainData:
+      itemType: 21
+      section: 3
+      itemPrefab: {fileID: 5960851771514777377, guid: a2ee7b1a131c84de2a4744f33648e405, type: 3}
+      itemName: Burger Big
+      iconSprite: {fileID: 21300000, guid: bda35eca2d1634cb38f50a1f32fc9164, type: 3}
+    costData:
+      buyCost:
+        dollars: 10
+        cents: 10
+      saleCostMin:
+        dollars: 10
+        cents: 10
+      saleCostRec:
+        dollars: 15
+        cents: 15
+      saleCostMax:
+        dollars: 30
+        cents: 30
+    xpData:
+      buyXpReward: 0
+      saleXpReward: 10
+      neededLevelForBuy: 6
+    otherData:
+      boxValue: 0
+      portionsValue: 1
+    recipe:
+      pecipeItems: 02000000270000002100000027000000240000002a00000001000000

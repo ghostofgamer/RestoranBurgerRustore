@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f67e70f6276945d88450e94cc62294c, type: 3}
+  m_Name: 0_Bun
+  m_EditorClassIdentifier: 
+  itemData:
+    mainData:
+      itemType: 0
+      section: 0
+      itemPrefab: {fileID: 5423086208154007408, guid: f46ce4d7528ca4dcd850552ce31107c1, type: 3}
+      itemName: Bun
+      iconSprite: {fileID: 21300000, guid: 96e49e236f1fd4826a09bcb427c93919, type: 3}
+    costData:
+      buyCost:
+        dollars: 0
+        cents: 75
+      saleCostMin:
+        dollars: 0
+        cents: 0
+      saleCostRec:
+        dollars: 0
+        cents: 0
+      saleCostMax:
+        dollars: 0
+        cents: 0
+    xpData:
+      buyXpReward: 5
+      saleXpReward: 0
+      neededLevelForBuy: 0
+    otherData:
+      boxValue: 8
+      portionsValue: 1
+      playerDraggerOffsetY: 0
+    recipe:
+      pecipeItems: 

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f67e70f6276945d88450e94cc62294c, type: 3}
+  m_Name: 17_FinalBurgerSmall
+  m_EditorClassIdentifier: 
+  itemData:
+    mainData:
+      itemType: 17
+      section: 3
+      itemPrefab: {fileID: 2041832682045294372, guid: e424fcac83fe149c29032a22b842c9c5, type: 3}
+      itemName: Burger Small
+      iconSprite: {fileID: 21300000, guid: d47425b94109c4fcf829edfaae2d7c7e, type: 3}
+    costData:
+      buyCost:
+        dollars: 4
+        cents: 55
+      saleCostMin:
+        dollars: 4
+        cents: 55
+      saleCostRec:
+        dollars: 6
+        cents: 83
+      saleCostMax:
+        dollars: 13
+        cents: 65
+    xpData:
+      buyXpReward: 0
+      saleXpReward: 10
+      neededLevelForBuy: 0
+    otherData:
+      boxValue: 0
+      portionsValue: 1
+    recipe:
+      pecipeItems: 02000000270000002a00000001000000

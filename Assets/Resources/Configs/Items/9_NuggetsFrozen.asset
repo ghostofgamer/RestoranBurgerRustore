@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f67e70f6276945d88450e94cc62294c, type: 3}
+  m_Name: 9_NuggetsFrozen
+  m_EditorClassIdentifier: 
+  itemData:
+    mainData:
+      itemType: 9
+      section: 0
+      itemPrefab: {fileID: 2296738983630215699, guid: 127b25e9cc6fe4a11851a3ce4b621d3e, type: 3}
+      itemName: Nuggets Frozen
+      iconSprite: {fileID: 21300000, guid: 36c3c47b4a6684be28c1612db679c779, type: 3}
+    costData:
+      buyCost:
+        dollars: 3
+        cents: 90
+      saleCostMin:
+        dollars: 0
+        cents: 0
+      saleCostRec:
+        dollars: 0
+        cents: 0
+      saleCostMax:
+        dollars: 0
+        cents: 0
+    xpData:
+      buyXpReward: 5
+      saleXpReward: 0
+      neededLevelForBuy: 4
+    otherData:
+      boxValue: 6
+      portionsValue: 1
+    recipe:
+      pecipeItems: 

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f67e70f6276945d88450e94cc62294c, type: 3}
+  m_Name: 10_BurgerPackingPaper
+  m_EditorClassIdentifier: 
+  itemData:
+    mainData:
+      itemType: 10
+      section: 1
+      itemPrefab: {fileID: 5460334999069988318, guid: 8648ab74fba304f63bafaaf7e86d3826, type: 3}
+      itemName: Burger Packing Paper
+      iconSprite: {fileID: 21300000, guid: e84aad2fa02244677b1c07cfe96325c4, type: 3}
+    costData:
+      buyCost:
+        dollars: 1
+        cents: 5
+      saleCostMin:
+        dollars: 0
+        cents: 0
+      saleCostRec:
+        dollars: 0
+        cents: 0
+      saleCostMax:
+        dollars: 0
+        cents: 0
+    xpData:
+      buyXpReward: 0
+      saleXpReward: 0
+      neededLevelForBuy: 0
+    otherData:
+      boxValue: 12
+      portionsValue: 1
+    recipe:
+      pecipeItems: 
